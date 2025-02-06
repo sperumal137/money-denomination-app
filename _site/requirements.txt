@@ -1,6 +1,5 @@
 alice-blue==2.0.2
 APScheduler==3.6.3
-apturl==0.5.2
 async-generator==1.10
 attrs==22.1.0
 autobahn==23.6.2
@@ -8,7 +7,6 @@ Automat==22.10.0
 bcrypt==3.2.0
 beautifulsoup4==4.11.1
 blinker==1.8.2
-Brlapi==0.8.3
 bs4==0.0.1
 cachetools==4.2.2
 certifi==2023.7.22
