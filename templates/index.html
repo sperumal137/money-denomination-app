@@ -33,6 +33,12 @@
     <h3>Total Amount: ₹<span id="grand-total">0</span></h3>
 
     <script>
+
+    fetch('/api/data')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+
         function calculateTotal() {
             let denominations = [500, 200, 100, 50, 20, 10];
             let grandTotal = 0;
